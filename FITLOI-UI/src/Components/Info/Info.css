@@ -1,0 +1,22 @@
+.info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+
+.info-prompt {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;  */
+}
+
+.login-info-button {
+    border-radius: 5px;
+    border:none;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}

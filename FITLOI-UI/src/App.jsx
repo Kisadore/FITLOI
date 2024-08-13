@@ -15,6 +15,13 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<Homepage/>}/>
+              {/* <Route path="/log" element={<Log/>}/> */}
+              {/* <Route path="/discover" element={<Discover/>}/> */}
+              {/* <Route path="/feed" element={<Feed/>}/> */}
+              {/* <Route path="/login" element={<Login/>}/> */}
+              {/* <Route path="/register" element={<Register/>}/> */}
+              {/* <Route path="/favorites" element={<Favorites/>}/> */}
+              {/* <Route path="/profile" element={<Profile/>}/> */}
             </Routes>
           </div>
           <Footer />

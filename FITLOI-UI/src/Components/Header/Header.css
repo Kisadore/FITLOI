@@ -32,8 +32,8 @@
     color: #333;
 }
 .nav-item a:hover {
-    /* color: #555; */
-    color: pink;
+    color: #555;
+    /* color: pink; */
 }
 .login-button{
     border-radius: 5px;
