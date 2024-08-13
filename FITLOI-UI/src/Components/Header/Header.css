@@ -1,0 +1,44 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(248, 249, 250, 0.2);
+    padding: 20px; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Nav and auth buttons styling */
+
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+.nav-item {
+    font-size: 18px;
+    margin: 0 10px;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+}
+.nav-item a:hover {
+    /* color: #555; */
+    color: pink;
+}
+.login-button{
+    border-radius: 5px;
+    border:.5px ;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: auto;
+}
