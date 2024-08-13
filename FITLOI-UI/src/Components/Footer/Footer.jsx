@@ -10,7 +10,7 @@ function Footer() {
             <div className="profile-card">
                 <div className="profile-card-content">
                     <h1 className="footer-name">Kiahna Isadore</h1>
-                    <p className="hover-to-contact">HOVER TO CONTACT</p>
+                    {/* <p className="hover-to-contact">HOVER TO CONTACT</p> */}
                 </div>
                 <div className="social-icons">
                     <a href="https://github.com/Kisadore" className="icon">
