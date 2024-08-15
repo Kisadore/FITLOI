@@ -4,6 +4,9 @@ import './App.css'
 import Homepage from './Components/Homepage/Homepage';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
+import Discover from './Components/Discover/Discover';
+import Feed from './Components/Feed/Feed';
+import Log from './Components/Log/Log';
 
 function App() {
 
@@ -15,6 +18,13 @@ function App() {
           <div className="content">
             <Routes>
               <Route path="/" element={<Homepage/>}/>
+              <Route path="/log" element={<Log/>}/>
+              <Route path="/discover" element={<Discover/>}/>
+              <Route path="/feed" element={<Feed/>}/>
+              {/* <Route path="/login" element={<Login/>}/> */}
+              {/* <Route path="/register" element={<Register/>}/> */}
+              {/* <Route path="/favorites" element={<Favorites/>}/> */}
+              {/* <Route path="/profile" element={<Profile/>}/> */}
             </Routes>
           </div>
           <Footer />

@@ -1,10 +1,95 @@
 .footer-box {
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #242424;
     color: #fff;
     padding: 10px;
     border-top: 0.5px solid black;
-    /* width: 100%; */
+}
+.hover-to-contact{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    /* margin-left:auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    max-width: 24rem;
+    position: relative;
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card:hover {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card-content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the icons */
+}
+
+.profile-card-content h1 {
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.profile-card-content p {
+    color: #cbd5e0;
+    font-size: 0.875rem;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: center; 
+    position: absolute;
+    bottom: 0rem; 
+    width: 100%;
+    /* opacity: 0; */
+    opacity: 2;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    z-index: 0; 
+    padding:5px;
+}
+
+.profile-card:hover .social-icons {
+    opacity: 1; 
+}
+
+.icon {
+    display: flex;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+    background-color: #4a5568;
+    color: #ffffff;
+    padding: 0.25rem;
+    border-radius: 9999px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+}
+
+/* .icon:hover {
+    transform: scale(1.1);
+} */
+
+.icon svg {
+    width: 1em;
+    height: 1em;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.875rem;
 }

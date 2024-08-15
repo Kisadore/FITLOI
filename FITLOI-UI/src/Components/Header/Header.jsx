@@ -3,6 +3,8 @@ import "./Header.css";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 
 function Header(){
+
+    const navigate = useNavigate();
     return (
         <>
             <header className="header">
@@ -14,13 +16,18 @@ function Header(){
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to={`/about`} className="about-name-link">
-                                About
+                            <Link to={`/log`} className="about-name-link">
+                                Log
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to={`/contact`} className="contack-name-link">
-                                Contact
+                            <Link to={`/discover`} className="contack-name-link">
+                                Discover
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to={`/feed`} className="feed-name-link">
+                                Feed
                             </Link>
                         </li>
                     </ul>
