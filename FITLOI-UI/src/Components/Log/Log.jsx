@@ -10,6 +10,7 @@ function Log() {
     return(
         <>
         {/* Log/Display Workouts */}
+        {/* test */}
             <h3 className="brainstorm-text">This will be the log page where users can come, log their workouts, and track their progress</h3>
             {/* <Calendar/> */}
             <LocalizationProvider dateAdapter={AdapterDayjs}>
