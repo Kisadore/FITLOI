@@ -9,6 +9,7 @@ import "./Log.css";
 function Log() {
     return(
         <>
+        {/* Log/Display Workouts */}
             <h3 className="brainstorm-text">This will be the log page where users can come, log their workouts, and track their progress</h3>
             {/* <Calendar/> */}
             <LocalizationProvider dateAdapter={AdapterDayjs}>
