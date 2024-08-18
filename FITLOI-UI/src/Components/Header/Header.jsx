@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { useNavigate, useLocation, Link } from "react-router-dom";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 function Header(){
 
@@ -32,7 +33,13 @@ function Header(){
                         </li>
                     </ul>
                 </nav>
-                <button className="login-button" onClick={() => navigate('/login')}>Log In</button>
+                {/* <button className="login-button" onClick={() => navigate('/login')}>Log In</button> */}
+                <SignedOut>
+                    <SignInButton mode="modal" />
+                </SignedOut>
+                <SignedIn>
+                    <UserButton />
+                </SignedIn>
             </header>
 
         </>

@@ -7,6 +7,9 @@ import Header from './Components/Header/Header';
 import Discover from './Components/Discover/Discover';
 import Feed from './Components/Feed/Feed';
 import Log from './Components/Log/Log';
+import Login from "./Components/Login/Login";
+
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 function App() {
 
