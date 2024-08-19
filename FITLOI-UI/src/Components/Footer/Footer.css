@@ -25,11 +25,12 @@
     max-width: 24rem;
     position: relative;
     transition: all 0.5s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* border:none; */
 }
 
 .profile-card:hover {
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); */
 }
 
 .profile-card-content {
@@ -92,4 +93,13 @@
     text-align: center;
     margin-top: 1rem;
     font-size: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    .profile-card-content h1 {
+        color: rgba(255, 255, 255, 0.87);
+    }
+    .footer-box{
+        background-color: rgba(248, 249, 250, 0.2);
+    }
 }

@@ -35,7 +35,7 @@ function Header(){
                 </nav>
                 {/* <button className="login-button" onClick={() => navigate('/login')}>Log In</button> */}
                 <SignedOut>
-                    <SignInButton mode="modal" />
+                    <SignInButton mode="modal" className="login-button"/>
                 </SignedOut>
                 <SignedIn>
                     <UserButton />

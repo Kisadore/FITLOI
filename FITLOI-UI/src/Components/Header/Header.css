@@ -43,3 +43,10 @@
     cursor: pointer;
     margin-left: auto;
 }
+
+@media (prefers-color-scheme: dark) {
+    .nav-item a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.87);
+    }
+}
