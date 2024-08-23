@@ -3,3 +3,19 @@
     justify-content: center;
     text-align: center;
 }
+.search-workouts{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.search-bar{
+    padding: 4px;
+    border:none;
+    border-radius: 4px;
+
+}
+.search-button{
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+}

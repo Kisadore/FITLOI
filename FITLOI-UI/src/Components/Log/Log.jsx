@@ -11,10 +11,10 @@ function Log() {
         <>
             <h3 className="brainstorm-text">This will be the log page where users can come, log their workouts, and track their progress</h3>
             {/* <Calendar/> */}
-            {/* <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DateCalendar />
-            </LocalizationProvider> */}
-            <div>
+            </LocalizationProvider>
+            {/* <div>
                 <form>
                     <label>
                         Workout: 
@@ -22,7 +22,7 @@ function Log() {
                     </label>
                     <input type="submit" value="Log" />
                 </form>
-            </div>
+            </div> */}
         </>
     )
 }
